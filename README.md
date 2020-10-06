@@ -1,2 +1,2 @@
 # whhan-1739919.github.io
-Info 101 stuff
+info 101 stuff
