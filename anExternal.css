@@ -1,0 +1,10 @@
+body {background-color: lightblue;}
+h1 {color: white;text-align: center;border-style: dotted;border-color: green;border-radius: 5px}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-size:200px;
+    font-family: verdana}
