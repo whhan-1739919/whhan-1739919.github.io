@@ -1,0 +1,127 @@
+h2{
+    color: #585858; 
+    font-size: 60px;
+    font-family: "Arial";
+    margin-bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+}
+
+body{
+    background-image: url("double-bubble.png");
+}
+
+legend {
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    margin-left:5px;
+    margin-bottom: bottom 5px;
+    border: solid 5px  #585858;
+    border-radius: 15px;
+    color:  #585858; 
+    font-size: 30px;
+    font-family: "Arial";
+}
+
+label{
+    font-size: 15px;
+    font-family: "Arial";
+    color: #585858; 
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+    
+}
+
+input{
+    border: solid 2px #585858;
+    border-radius: 5px;
+    color: #585858; 
+    height: 20px;
+    padding: 5px;
+}
+
+input:focus {
+    background-color: lightblue;
+    border: 5px solid rgb(17, 0, 255)
+}
+
+textarea{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: solid 2px  #585858;
+    border-radius: 5px;
+}
+
+th{
+    font-size: 15px;
+    font-family: "Arial";
+    color: #585858; 
+}
+table{
+    border: solid 1px  #585858;
+    margin-left: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #585858;
+  }
+
+#submit{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: solid 2px #585858;
+    border-radius: 5px;
+    font-size:18px;
+    color:#bebebe;
+    height:30px;
+    background-color: black;
+}
+
+#submit:hover {
+    background-color: #fffb00}
+
+#submit:active{
+    background-color: #fffb00;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#first{
+    float:left;
+    width:15%;
+}
+
+select{
+    border: solid 2px #585858;
+    border-radius: 5px;
+    color: #585858; 
+    height: 34px;
+    font-size: 15px;
+    font-family: "Arial";
+}
+
+.radio{
+    margin-left: 35px;
+}
+
+.checkbox{
+    margin-left: 35px;
+}
+
+h4{
+    color:rgb(189, 1, 1);
+    font-size:10px;
+    float: left;
+    width: 5%
+}
