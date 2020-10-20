@@ -14,7 +14,7 @@ p{
     font-family: "Arial"; 
     color: #ffffff; 
     font-weight: bold;
-    overflow: scroll;
+    overflow: auto;
     padding: 15px;
     width: 95%;
     height: 270px;
