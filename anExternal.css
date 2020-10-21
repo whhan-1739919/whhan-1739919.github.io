@@ -1,10 +1,63 @@
-body {background-color: lightblue;}
-h1 {color: white;text-align: center;border-style: dotted;border-color: green;border-radius: 10px}
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color: white;
+    text-align: center;
+    border-style: dotted;
+    border-color: green;
+    border-radius: 5px;
+    width: 200px;
+}
+
 .centered {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:black;
+    color:purple;
     font-size:200px;
-    font-family: verdana}
+    font-family: verdana
+}
+
+#HWGD {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+#hi {
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+    margin:20px;
+}
+
+#container img{
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+}
+
+.catdog img{
+    width:50px;
+    height:50px;
+    margin:20px;
+}
+
+.cat {
+    float:left;
+    
+}
+
+.dog {
+    float:right;
+}
